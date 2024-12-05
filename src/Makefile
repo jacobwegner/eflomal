@@ -1,3 +1,4 @@
+CC ?= cc
 CFLAGS ?= -Ofast -march=native -Wall --std=gnu99 -Wno-unused-function -g -fopenmp
 # This is more suitable for debugging:
 #CFLAGS=-Og -Wall --std=gnu99 -Wno-unused-function -g -fopenmp
